@@ -109,20 +109,20 @@ Antes da data limite, garantam que o repositório de vocês possui:
 *(Instrução: Substituam os textos entre colchetes pelas informações do projeto de vocês)*
 
 ### 👥 Membros da Equipe
-1. [Nome do Aluno 1]
-2. [Nome do Aluno 2]
-3. [Nome do Aluno 3]
+1. Anna Heloisa Malschitzky
+2. Sandriely Maciel
+3. William Fagundes
 
 ### 🧠 Arquitetura Escolhida
-* **Framework:** [Ex: TensorFlow/Keras ou Scikit-Learn]
-* **Tipo de Modelo:** [Ex: Rede Neural Convolucional (CNN), Perceptron Multicamadas (MLP), Random Forest]
-* **Camadas Ocultas:** [Ex: 2 camadas Densas de 128 neurônios, ou 1 camada Conv2D + Flatten]
-* **Função de Ativação de Saída:** [Ex: Softmax para 64 classes]
+* **Framework:** TensorFlow/Keras
+* **Tipo de Modelo:** Rede Neural Perceptron Multicamadas (MLP
+* **Camadas Ocultas:** 3 camadas Densas com 256 neurônios cada, usando ativação ReLU
+* **Função de Ativação de Saída:** Sigmoid para classificação binária
 
 ### 📊 Desempenho no Treino
-* **Acurácia Final de Treino:** [Ex: 85%]
-* **Função de Loss Utilizada:** [Ex: Categorical Crossentropy]
-* **Maior Dificuldade:** [Descrevam em 2 linhas o maior desafio que a equipe enfrentou. Ex: "A maior dificuldade foi converter as bandeiras do CSV num tensor NumPy sem quebrar a camada de Flatten."]
+* **Acurácia Final de Treino:** 82.60%
+* **Função de Loss Utilizada:** Binary Crossentropy
+* **Maior Dificuldade:** A maior dificuldade foi lidar com o tempo de treino, já que o dataset é grande e cada execução completa do modelo demora bastante. Além de treinar o número correto de epochs visto que em alguns dos treinos tivemos um leve overfitting no resultado final.
 
 ---
 *Projeto desenvolvido para a disciplina de Fundamentos de IA - 2026.*
